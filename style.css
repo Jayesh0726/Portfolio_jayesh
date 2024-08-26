@@ -1,0 +1,30 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'MyFont';
+        src: url('/Fonts/Myfonts.ttf') format('truetype');
+      }
+    }
+     
+    @layer base {
+      @font-face {
+        font-family: 'Mark-Simonson-Bold';
+        src: url('/Fonts/mark-simonson-bold.ttf') format('truetype');
+      }
+    }
+      
+      @layer base {
+      @font-face {
+        font-family: 'Mark-Simonson-Regular';
+        src: url('/Fonts/mark-simonson-regular.ttf') format('truetype');
+      }
+    }
+
+    #threePlane{
+      clip-path: circle(var(--clip) at 50% 50%);
+    }
